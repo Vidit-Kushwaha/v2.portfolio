@@ -2,6 +2,7 @@ import '@/styles/globals.css'
 // pages/_app.js
 import React from 'react'
 import Head from 'next/head'
+import CustomHead from '../components/CustomHead';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -26,9 +27,11 @@ function MyApp({ Component, pageProps }) {
         <link rel="apple-touch-icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
         <link rel="icon" type="ico" href="favicon.ico" />
         <link rel="apple-touch-icon" type="ico" href="favicon.ico" />
-        <meta name="theme-color" content="#0a192f"/>
-        
+        <meta name="theme-color" content="#0a192f" />
+
         <link rel="manifest" href="manifest.json" />
+
+        {/* <!-- Google tag (gtag.js) --> */}
 
         {/* CDN  */}
         <link
@@ -36,6 +39,7 @@ function MyApp({ Component, pageProps }) {
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
       </Head>
+      <CustomHead />
       <Component {...pageProps} />
     </>
   )
