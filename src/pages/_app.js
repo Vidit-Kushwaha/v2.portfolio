@@ -1,10 +1,11 @@
 import '@/styles/globals.css'
 // pages/_app.js
-import React from 'react'
+import React,{ useEffect } from 'react'
 import Head from 'next/head'
-import CustomHead from '../components/CustomHead';
 
 function MyApp({ Component, pageProps }) {
+
+
   return (
     <>
       <Head>
@@ -13,7 +14,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="vidit kushwaha portfolio" />
         <meta property="og:title" content="Your Open Graph Title" />
         <meta property="og:description" content="I am a second year student pursuing Metallurgical and Materials Engineering @ NIT Rourkela. I'm always open to new experiences, meeting new people, and learning new things." />
-        <link rel="canonical" href="https://www.viditkushwaha.com/" />
+        <link rel="canonical" href="https://www.viditkushwaha.live/" />
 
         <link rel="icon" type="ico" href="icon/icon.ico" />
         <link rel="apple-touch-icon" type="ico" href="icon/icon.ico" />
@@ -30,8 +31,6 @@ function MyApp({ Component, pageProps }) {
         <meta name="theme-color" content="#0a192f" />
 
         <link rel="manifest" href="manifest.json" />
-
-        {/* <!-- Google tag (gtag.js) --> */}
 
         {/* CDN  */}
         <link
