@@ -1,11 +1,10 @@
 import '@/styles/globals.css'
 // pages/_app.js
-import React,{ useEffect } from 'react'
+import React from 'react'
 import Head from 'next/head'
+import CustomHead from '../components/CustomHead';
 
 function MyApp({ Component, pageProps }) {
-
-
   return (
     <>
       <Head>
@@ -31,6 +30,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="theme-color" content="#0a192f" />
 
         <link rel="manifest" href="manifest.json" />
+
+        {/* <!-- Google tag (gtag.js) --> */}
 
         {/* CDN  */}
         <link
