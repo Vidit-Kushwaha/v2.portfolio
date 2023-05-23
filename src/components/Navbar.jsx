@@ -50,7 +50,7 @@ const Navbar = () => {
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
-            <li><button className='custom-button  px-3 py-2'>Resume</button></li>
+            <li> <a className="resume" href={resume} rel="noopener noreferrer" target="_blank"><button className='custom-button px-3 py-2'>Resume</button></a></li>
           </ul>
         </div>
       </div>

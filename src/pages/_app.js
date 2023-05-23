@@ -2,7 +2,7 @@ import '@/styles/globals.css'
 // pages/_app.js
 import React from 'react'
 import Head from 'next/head'
-import CustomHead from '../components/CustomHead';
+import Script from 'next/script';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Vidit Kushwaha</title>
         <meta name="description" content="I am a second year student pursuing Metallurgical and Materials Engineering @ NIT Rourkela." />
-        <meta name="keywords" content="vidit kushwaha portfolio" />
-        <meta property="og:title" content="Your Open Graph Title" />
+        <meta name="keywords" content="vidit kushwaha, portfolio, viditkushwaha, vidit" />
+        <meta property="og:title" content="Hi, my name is Vidit Kushwaha" />
         <meta property="og:description" content="I am a second year student pursuing Metallurgical and Materials Engineering @ NIT Rourkela. I'm always open to new experiences, meeting new people, and learning new things." />
         <link rel="canonical" href="https://www.viditkushwaha.live/" />
 
@@ -31,15 +31,28 @@ function MyApp({ Component, pageProps }) {
 
         <link rel="manifest" href="manifest.json" />
 
-        {/* <!-- Google tag (gtag.js) --> */}
-
         {/* CDN  */}
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
       </Head>
-      <CustomHead />
+
+      {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-12W70FFEK3"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-12W70FFEK3');
+        `}
+      </Script>
+
       <Component {...pageProps} />
     </>
   )

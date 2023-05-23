@@ -4,9 +4,9 @@ import { instagram, twitter, linkedin, js, react, nodejs, mongodb, github } from
 export const email = "viditkushwaha530@gmail.com";
 export const loaderDelay=2000;
 export const navDelay = 1000;
-export const resume = "https://drive.google.com/file/d/1K7VfPRzqBiM5HV1plfLvl3BNRRcMi_5t/view?usp=share_link";
+export const resume = "/resume.pdf";
 export const collage = "https://www.google.com/search?q=nit+rourkela";
-export const repo = "https://github.com/Vidit-Kushwaha?tab=repositories";
+export const repo = "https://github.com/Vidit-Kushwaha/pt";
 
 
 export const navLinks = [
