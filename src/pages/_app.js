@@ -13,6 +13,14 @@ function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="vidit kushwaha, portfolio, viditkushwaha, vidit" />
         <meta property="og:title" content="Hi, my name is Vidit Kushwaha" />
         <meta property="og:description" content="I am a second year student pursuing Metallurgical and Materials Engineering @ NIT Rourkela. I'm always open to new experiences, meeting new people, and learning new things." />
+        <meta property="og:site_name" content="Vidit Kushwaha"/>
+        <meta property="og:type" content="website"/>
+        <meta property="twitter:card" content="summary_large_image"></meta>
+        <meta property="twitter:creator" content="@vidit9011"></meta>
+        <meta property="twitter:site" content="@vidit9011"></meta>
+        <meta property="twitter:title" content="Vidit Kushwaha"></meta>
+        <meta property="twitter:description" content="I am a second year student pursuing Metallurgical and Materials Engineering @ NIT Rourkela."></meta>
+        <meta property="twitter:url" content="https://viditkushwaha.live/"></meta>
         <link rel="canonical" href="https://www.viditkushwaha.live/" />
 
         <link rel="icon" type="ico" href="icon/icon.ico" />
@@ -32,10 +40,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="manifest.json" />
 
         {/* CDN  */}
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        />
+        
       </Head>
 
       {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}

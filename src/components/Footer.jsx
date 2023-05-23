@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <footer className="text-gray-600 font-poppins">
-      <div className='text-gray-500 max-w-md  mx-auto'><p className='leading-relaxed text-center'> Designed in paper and coded in VS Code by yours truly. Built with React.js and Tailwind CSS, deployed with Digitalocean.</p></div>
+      <div className='text-gray-500 max-w-md  mx-auto'><p className='leading-relaxed text-center sm:text-[1rem] text-xs'> Designed in paper and coded in VS Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Digitalocean.</p></div>
 
       <div className="container py-8 mx-auto flex items-center justify-between sm:flex-row flex-col">
         <p className="text-md sm:ml-4 sm:block hidden sm:py-2 sm:mt-0 mt-4">Build by

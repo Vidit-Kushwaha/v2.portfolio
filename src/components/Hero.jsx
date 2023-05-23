@@ -29,7 +29,7 @@ const Hero = () => {
     </span>
   )
   const four = (
-    <p className="my-4 leading-tight sm:w-[40vw] sm:text-sm  md:text-lg text-gray-500">I'm a second year student pursuing Metallurgical and Materials Engineering <a href={collage} target='_blank'><span className='text-teal-300'>@NIT Rourkela.</span></a> I'm always open to new experiences, meeting new people, and learning new things.</p>
+    <p className="my-2 leading-tight sm:w-[40vw] sm:text-sm  md:text-lg text-gray-500">I'm a second year student pursuing Metallurgical and Materials Engineering <a href={collage} target='_blank'><span className='text-teal-300'>@NIT Rourkela.</span></a> I'm always open to new experiences, meeting new people, and learning new things.</p>
   );
 
   const items = [one, two, three, four];
