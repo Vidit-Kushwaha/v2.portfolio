@@ -6,13 +6,4 @@ import Line from './Line'
 import Splashscreen from './Splashscreen'
 import Contact from './Contact'
 
-
-export {
-    Navbar,
-    Hero,
-    Tabcontainer,
-    Footer,
-    Line,
-    Splashscreen,
-    Contact,
-};
+export { Navbar, Hero, Tabcontainer, Footer, Line, Splashscreen, Contact }
