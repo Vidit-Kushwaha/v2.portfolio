@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import { navDelay, loaderDelay, collage } from '../../config'
 import usePrefersReducedMotion from '../hooks/usePrefersReducedMotion'
+import Link from 'next/link'
 
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false)
@@ -40,8 +41,20 @@ const Hero = () => {
       things.
     </p>
   )
+  const five = (
+    <Link
+      className="flex items-start my-10"
+      href="https://blog.viditkushwaha.live"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <button className="custom-button px-3 py-2 block !mx-0">
+        Check out my blog page!
+      </button>
+    </Link>
+  )
 
-  const items = [one, two, three, four]
+  const items = [one, two, three, four, five]
 
   return (
     <>

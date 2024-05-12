@@ -10,7 +10,9 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar px-3">
-      <div className="font-poppins font-bold text-lg">Vidit Kushwaha</div>
+      <Link className="font-poppins font-bold text-lg" href="/">
+        Vidit Kushwaha
+      </Link>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -24,15 +26,14 @@ const Navbar = () => {
           </li>
         ))}
         <li>
-          {' '}
-          <a
+          <Link
             className="resume"
             href={resume}
             rel="noopener noreferrer"
             target="_blank"
           >
             <button className="custom-button px-3 py-2">Resume</button>
-          </a>
+          </Link>
         </li>
       </ul>
 
@@ -58,19 +59,18 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? 'mb-4' : 'mb-4'}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <Link href={`#${nav.id}`}>{nav.title}</Link>
               </li>
             ))}
             <li>
-              {' '}
-              <a
+              <Link
                 className="resume"
                 href={resume}
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <button className="custom-button px-3 py-2">Resume</button>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
