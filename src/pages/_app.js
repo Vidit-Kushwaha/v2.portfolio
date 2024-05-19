@@ -74,9 +74,9 @@ function MyApp({ Component, pageProps }) {
         ></meta>
         <meta
           property="twitter:url"
-          content="https://viditkushwaha.live/"
+          content="https://viditkushwaha.com/"
         ></meta>
-        <link rel="canonical" href="https://www.viditkushwaha.live/" />
+        <link rel="canonical" href="https://www.viditkushwaha.com/" />
 
         <link rel="icon" type="ico" href="icon/icon.ico" />
         <link rel="apple-touch-icon" type="ico" href="icon/icon.ico" />
@@ -151,7 +151,7 @@ function MyApp({ Component, pageProps }) {
 
       {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-12W70FFEK3"
+        src="https://www.googletagmanager.com/gtag/js?id=G-G0RZLEL6W1"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -160,7 +160,7 @@ function MyApp({ Component, pageProps }) {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-12W70FFEK3');
+          gtag('config', 'G-G0RZLEL6W1');
         `}
       </Script>
     </>

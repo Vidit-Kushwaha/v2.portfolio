@@ -17,7 +17,7 @@ This is my personal portfolio website built using Next.js and Tailwind CSS. It s
 
 ![Portfolio Screenshot](https://drive.google.com/uc?export=view&id=18oe-Pnm7wneTMEJk0Rv_beDvhm6m9hW8)
 
-You can visit the live website [here](https://viditkushwaha.live/).
+You can visit the live website [here](https://viditkushwaha.com/).
 
 ## Technologies Used
 

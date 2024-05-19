@@ -44,7 +44,7 @@ const Hero = () => {
   const five = (
     <Link
       className="flex items-start my-10"
-      href="https://blog.viditkushwaha.live"
+      href="https://blog.viditkushwaha.com"
       rel="noopener noreferrer"
       target="_blank"
     >
