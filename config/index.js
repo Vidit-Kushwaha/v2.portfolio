@@ -9,7 +9,7 @@ import {
   github,
 } from '../src/assets'
 
-export const email = 'viditkushwaha530@gmail.com'
+export const email = 'connect.viditkushwaha@gmail.com'
 export const loaderDelay = 2000
 export const navDelay = 1000
 export const resume = '/resume.pdf'
