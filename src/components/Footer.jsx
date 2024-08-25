@@ -9,7 +9,7 @@ const Footer = () => {
         <p className="leading-relaxed text-center text-[1rem] sm:text-[0.8rem] text-xs">
           {' '}
           Designed in paper and coded in VS Code by yours truly. Built with
-          Next.js and Tailwind CSS, deployed with Digitalocean.
+          Next.js and Tailwind CSS, deployed with Vercel.
         </p>
       </div>
 

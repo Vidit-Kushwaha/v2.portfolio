@@ -32,24 +32,25 @@ const Hero = () => {
     </span>
   )
   const four = (
-    <p className="my-2 leading-tight sm:w-[40vw] sm:text-sm  md:text-lg text-gray-500">
-      I'm a third year student pursuing Metallurgical and Materials Engineering{' '}
-      <a href={collage} target="_blank">
-        <span className="text-teal-300">@NIT Rourkela.</span>
-      </a>{' '}
+    <p className="my-2 leading-tight sm:w-[40vw] sm:text-sm  md:text-base text-gray-500">
+      I am Vidit Kushwaha, final year student, doing my bachelor's of technology
+      in metallurgy and materials engineering from
+      <Link href={collage} target="_blank">
+        <span className="text-teal-300"> @NIT Rourkela. </span>
+      </Link>
       I'm always open to new experiences, meeting new people, and learning new
       things.
     </p>
   )
   const five = (
     <Link
-      className="flex items-start my-10"
+      className="flex items-start my-10 w-fit"
       href="https://blog.viditkushwaha.com"
       rel="noopener noreferrer"
       target="_blank"
     >
       <button className="custom-button px-3 py-2 block !mx-0">
-        Check out my blog page!
+        Checkout my blog !
       </button>
     </Link>
   )
