@@ -12,7 +12,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <li
               key={project.id}
-              className="mb-12 max-w-[600px] start backdrop-blur-0 bg-[#112240] rounded-xl shadow-lg p-6 sm:p-8 sm:col-span-6"
+              className="mb-12 start backdrop-blur-0 bg-[#112240] rounded-xl shadow-lg p-6 sm:p-8 sm:col-span-6"
               style={{ transitionDelay: `${index * 300}ms` }}
             >
               <a
