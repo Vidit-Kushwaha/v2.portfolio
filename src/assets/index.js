@@ -16,6 +16,19 @@ import play from './play.svg'
 import profile from './profile.jpg'
 import plane from './plane.svg'
 import external from './external.svg'
+import cplus from './cplus.svg'
+import nextjs from './nextjs.svg'
+import aws from './aws.svg'
+import docker from './docker.svg'
+import git from './git.svg'
+import linux from './linux.svg'
+import python from './python.svg'
+import rollup from './rollup.svg'
+import tensorflow from './tensorflow.svg'
+import ts from './ts.svg'
+import webpack from './webpack.svg'
+import vscode from './vscode.svg'
+import ubuntu from './ubuntu.svg'
 
 export {
   menu,
@@ -36,4 +49,17 @@ export {
   plane,
   external,
   github2,
+  cplus,
+  nextjs,
+  aws,
+  docker,
+  git,
+  linux,
+  python,
+  rollup,
+  tensorflow,
+  ts,
+  webpack,
+  vscode,
+  ubuntu,
 }

@@ -7,6 +7,19 @@ import {
   nodejs,
   mongodb,
   github,
+  cplus,
+  nextjs,
+  git,
+  vscode,
+  python,
+  docker,
+  aws,
+  linux,
+  ubuntu,
+  ts,
+  webpack,
+  rollup,
+  tensorflow,
 } from '../src/assets'
 
 export const email = 'connect.viditkushwaha@gmail.com'
@@ -56,30 +69,24 @@ export const socialMedia = [
 ]
 
 export const skills = [
-  {
-    id: 'js',
-    icon: js,
-  },
-  {
-    id: 'react',
-    icon: react,
-  },
-  {
-    id: 'nodejs',
-    icon: nodejs,
-  },
-  {
-    id: 'mongodb',
-    icon: mongodb,
-  },
-  {
-    id: 'github',
-    icon: github,
-  },
-  {
-    id: 'nextjs',
-    icon: 'https://img.icons8.com/color/48/ffffff/nextjs.png',
-  },
+  js,
+  ts,
+  nodejs,
+  react,
+  nextjs,
+  mongodb,
+  webpack,
+  rollup,
+  git,
+  github,
+  vscode,
+  cplus,
+  python,
+  tensorflow,
+  docker,
+  aws,
+  linux,
+  ubuntu,
 ]
 
 export const projects = [
@@ -117,13 +124,13 @@ export const projects = [
     github: 'https://github.com/Vidit-Kushwaha/News-24-7',
     stack: ['React', 'News API', 'Bootstrap'],
   },
-  {
-    id: 'pdf merger',
-    title: 'PDF merger',
-    desc: 'PDFMerger is a website built on Node.js and Express that utilizes an npm package to merge multiple PDF files seamlessly. With its user-friendly interface, users can easily upload their PDF files, and the application intelligently combines them into a single, consolidated PDF document, streamlining the process of merging PDFs effortlessly.',
-    github: 'https://github.com/Vidit-Kushwaha/News-24-7',
-    stack: ['Node Js', 'Express Js', 'Bootstrap'],
-  },
+  // {
+  //   id: 'pdf merger',
+  //   title: 'PDF merger',
+  //   desc: 'PDFMerger is a website built on Node.js and Express that utilizes an npm package to merge multiple PDF files seamlessly. With its user-friendly interface, users can easily upload their PDF files, and the application intelligently combines them into a single, consolidated PDF document, streamlining the process of merging PDFs effortlessly.',
+  //   github: 'https://github.com/Vidit-Kushwaha/News-24-7',
+  //   stack: ['Node Js', 'Express Js', 'Bootstrap'],
+  // },
 ]
 
 export const content = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
